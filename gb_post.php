@@ -18,5 +18,5 @@ if ($insert) {
 
 
 //tambahkan atau perbaiki script diantara dibaris 7 sampai  15
-//sql code injection  di login guestbook bagian pesan   '); CREATE TABLE hacked (id INT); --
+//sql code injection  di guestbook bagian pesan   '); CREATE TABLE hacked (id INT); --
 
