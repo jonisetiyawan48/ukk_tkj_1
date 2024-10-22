@@ -15,3 +15,5 @@ if ($insert) {
 }
 
 
+//tambahkan atau perbaiki script diantara dibaris 7 sampai  15
+//sql code injection  di login guestbook bagian pesan   '<script>alert('XSS Attack!');</script>' 
