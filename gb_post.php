@@ -5,7 +5,7 @@ session_start();
 include 'koneksi.php';
 
 $nama = $_POST['nama'];
-$pesan = htmlspecialchars($_POST['pesan']);
+$pesan = $_POST['pesan'];
 $nama = mysqli_real_escape_string($conn, $nama);
 
 $nama = htmlspecialchars($nama, ENT_QUOTES, 'UTF-8');
